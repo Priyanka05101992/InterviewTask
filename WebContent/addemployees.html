@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+<h1>Policy Details</h1>
+<form action="SaveServlet" method="get">
+<table>  
+<tr><td>PolicyNumber:</td><td><input type="text" name="policynumber"/></td></tr>  
+<tr><td>CustomerId:</td><td><input type="text" name="customerid"/></td></tr>  
+<tr><td>CustomerName:</td><td><input type="text" name="customername"/></td></tr>  
+<tr><td>InsuredName:</td><td><input type="text" name="insuredname"/></td></tr>
+<tr><td>Date of Birthday:</td><td><input type="text" name="dob"/></td></tr>  
+<tr><td>EmailAddress:</td><td><input type="text" name="emailaddress"/></td></tr>  
+<tr><td>MobileNumber:</td><td><input type="text" name="mobilenumber"/></td></tr>  
+<tr><td>PremiumMode:</td><td>  
+<select name="premiummode" style="width:155px">  
+<option>Monthly</option>  
+<option>Half Yearly</option>  
+<option>Yearly</option>
+<tr><td>PolicyStatus:</td><td> 
+</select> 
+<input type="radio" name="policystatus" value="active"/>Active   
+<input type="radio" name="policystatus" value="inactive"/>Inactive </td></tr>
+<tr><td>CustomerPannumber:</td><td><input type="text" name="customerpannumber"/></td></tr>  
+<tr><td>PolicyIssuanceDate:</td><td><input type="text" name="policyissuancedate"/></td></tr>  
+<tr><td>Last_Updated:</td><td><input type="text" name="last_updated"/></td></tr>  
+<tr><td>EmaiaddressLast_Updated:</td><td><input type="text" name="emaiaddresslast_updated"/></td></tr>  
+<tr><td>BankAccountNumber:</td><td><input type="text" name="bankaccountnumber"/></td></tr>  
+<tr><td>Whatsapp_Opt_In_Status:</td><td>  
+<input type="radio" name="whatsapp_opt_in_status" value="Yes"/>Yes  
+<input type="radio" name="whatsapp_opt_in_status" value="No"/>No </td></tr>
+  
+<tr><td>ProductName:</td><td><input type="text" name="productname"/></td></tr>  
+<tr><td>ReinvestApplication:</td><td><input type="text" name="reinvestapplication"/></td></tr>  
+<tr><td>OustandingPayout:</td><td><input type="text" name="oustandingpayout"/></td></tr>  
+<tr><td>UnclaimedAmount:</td><td><input type="text" name="unclaimedamount"/></td></tr>  
+<tr><td>NEFTRegister:</td><td><input type="text" name="neftregister"/></td></tr> 
+<tr><td>LastPremiumPaid:</td><td>  
+<input type="radio" name="lastpremiumpaid" value="Yes"/>Yes  
+<input type="radio" name="lastpremiumpaid" value="No"/>No </td></tr>
+<tr><td>ProductId:</td><td><input type="text" name="productid"/></td></tr>  
+<tr><td>Password:</td><td><input type="password" name="password"/></td></tr>
+
+
+<tr><td colspan="2"><input type="submit" value="Save Policy"/></td></tr>  
+</table>    
+
+
+
+ 
+
+
+
+
+
+ 
+
+</form>
+
+
+
+</body>
+</html>
